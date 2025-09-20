@@ -12,8 +12,8 @@ const produtos = [
     id: 2,
     nome: "Bolo de Chocolate Decorado",
     descricao: "recheio de brigadeiro ",
-    imagem: "./LojaAtulizado/Bolos/Bolo-chocolate-lado.jpeg",
-    imagemExtra: "LojaAtulizado/Bolos/Boloco-chocolate-vertical.jpeg",
+    imagem: "./CheiroDeRosa/Bolos/Bolo-chocolate-lado.jpeg",
+    imagemExtra: "CheiroDeRosa/Bolos/Boloco-chocolate-vertical.jpeg",
     categoria: "Bolos"
   },
   {
