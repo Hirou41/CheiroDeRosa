@@ -60,7 +60,7 @@ const produtos = [
 ];
 
 // Imagem padrão para brigadeiros sem foto
-const IMAGEM_PADRAO = "../CheiroDeRosa//Foto Brigadeiro/Caixa-brigadeiro.jpeg";
+const IMAGEM_PADRAO = "../CheiroDeRosa/Foto Brigadeiro/Caixa-brigadeiro.jpeg";
 
 // Função para renderizar produtos filtrados
 function renderizarProdutos(filtro = "Todos", busca = "") {
