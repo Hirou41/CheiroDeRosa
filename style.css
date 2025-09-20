@@ -135,7 +135,7 @@ header {
 
 /* 🌸 Rodapé */
 .rodape {
-  background-color: var(--rosa-escuro);
+  background-color: #000000; /* fundo preto */
   color: var(--branco);
   text-align: center;
   padding: 20px;
@@ -153,6 +153,7 @@ header {
 .rodape a:hover {
   color: var(--destaque);
 }
+
 
 /* ==========================
    Estilo da seção de Bolos
