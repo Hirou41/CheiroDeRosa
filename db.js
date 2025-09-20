@@ -5,14 +5,14 @@ const produtos = [
     id: 1,
     nome: "Bolo de Chocolate com Morangos",
     descricao: "morango recheio de brigadeiro e prestígio ",
-    imagem: "/LojaAtulizado/Bolos/Bolo-chocolate-grande.jpeg",
+    imagem: "../CheiroDeRosa/Bolos/Bolo-chocolate-grande.jpeg",
     categoria: "Bolos"
   },
   {
     id: 2,
     nome: "Bolo de Chocolate Decorado",
     descricao: "recheio de brigadeiro ",
-    imagem: "/LojaAtulizado/Bolos/Bolo-chocolate-lado.jpeg",
+    imagem: "./LojaAtulizado/Bolos/Bolo-chocolate-lado.jpeg",
     imagemExtra: "LojaAtulizado/Bolos/Boloco-chocolate-vertical.jpeg",
     categoria: "Bolos"
   },
