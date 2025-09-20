@@ -44,7 +44,7 @@ const produtos = [
     nome: "Brigadeiro",
     preco: "R$140",
     categoria: "Brigadeiros Tradicionais",
-    imagem: "../CheiroDeRosa/Foto Brigadeiro/Caixa-brigadeiro-redondo.jpeg"
+    imagem: ".../CheiroDeRosa/Bolos/Caixa-brigadeiro-redondo.jpeg"
   },
   { id: 7, nome: "Coco", preco: "R$130", categoria: "Brigadeiros Tradicionais", imagem: "" },
   { id: 8, nome: "Ninho", preco: "R$135", categoria: "Brigadeiros Tradicionais", imagem: "" },
@@ -60,7 +60,7 @@ const produtos = [
 ];
 
 // Imagem padrão para brigadeiros sem foto
-const IMAGEM_PADRAO = "../CheiroDeRosa/Foto Brigadeiro/Caixa-brigadeiro.jpeg";
+const IMAGEM_PADRAO = "../CheiroDeRosa/Bolos/Caixa-brigadeiro.jpeg";
 
 // Função para renderizar produtos filtrados
 function renderizarProdutos(filtro = "Todos", busca = "") {
