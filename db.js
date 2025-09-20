@@ -13,7 +13,7 @@ const produtos = [
     nome: "Bolo de Chocolate Decorado",
     descricao: "recheio de brigadeiro ",
     imagem: "../CheiroDeRosa/Bolos/Bolo-chocolate-lado.jpeg",
-    imagemExtra: "./CheiroDeRosa/Bolos/Boloco-chocolate-vertical.jpeg",
+    imagemExtra: "../CheiroDeRosa/Bolos/Boloco-chocolate-vertical.jpeg",
     categoria: "Bolos"
   },
   {
