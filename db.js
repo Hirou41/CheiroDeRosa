@@ -5,36 +5,36 @@ const produtos = [
     id: 1,
     nome: "Bolo de Chocolate com Morangos",
     descricao: "morango recheio de brigadeiro e prestígio ",
-    imagem: "../LojaAtulizado/Bolos/Bolo-chocolate-grande.jpeg",
+    imagem: "LojaAtulizado/Bolos/Bolo-chocolate-grande.jpeg",
     categoria: "Bolos"
   },
   {
     id: 2,
     nome: "Bolo de Chocolate Decorado",
     descricao: "recheio de brigadeiro ",
-    imagem: "../LojaAtulizado/Bolos/Bolo-chocolate-lado.jpeg",
-    imagemExtra: "../LojaAtulizado/Bolos/Boloco-chocolate-vertical.jpeg",
+    imagem: "LojaAtulizado/Bolos/Bolo-chocolate-lado.jpeg",
+    imagemExtra: "LojaAtulizado/Bolos/Boloco-chocolate-vertical.jpeg",
     categoria: "Bolos"
   },
   {
     id: 3,
     nome: "Bolo no Pote",
     descricao: "porção individual para aniversário e lembrancinha, recheios de brigadeiro branco ",
-    imagem: "../LojaAtulizado/Bolos/Bolo-pote-quadrado.jpeg",
+    imagem: "LojaAtulizado/Bolos/Bolo-pote-quadrado.jpeg",
     categoria: "Bolos"
   },
   {
     id: 4,
     nome: "Bolo Rústico com Flores",
     descricao: "rústico com flores recheio de brigadeiro de maracujá ",
-    imagem: "../LojaAtulizado/Bolos/Bolo-pote-redondo.jpeg",
+    imagem: "LojaAtulizado/Bolos/Bolo-pote-redondo.jpeg",
     categoria: "Bolos"
   },
   {
     id: 5,
     nome: "Bolo de Aniversário",
-    descricao: "Personalizado com tema infantil,  massa de chocolate recheio de brigadeiro de maracujá ",
-    imagem: "../LojaAtulizado/Bolos/Bolo-Aniversario.jpeg",
+    descricao: "Personalizado com tema infantil, massa de chocolate recheio de brigadeiro de maracujá ",
+    imagem: "LojaAtulizado/Bolos/Bolo-Aniversario.jpeg",
     categoria: "Bolos"
   },
 
@@ -44,7 +44,7 @@ const produtos = [
     nome: "Brigadeiro",
     preco: "R$140",
     categoria: "Brigadeiros Tradicionais",
-    imagem: "../LojaAtulizado/Bolos/Caixa-brigadeiro-redondo.jpeg"
+    imagem: "LojaAtulizado/Foto Brigadeiro/Caixa-brigadeiro-redondo.jpeg"
   },
   { id: 7, nome: "Coco", preco: "R$130", categoria: "Brigadeiros Tradicionais", imagem: "" },
   { id: 8, nome: "Ninho", preco: "R$135", categoria: "Brigadeiros Tradicionais", imagem: "" },
@@ -60,7 +60,7 @@ const produtos = [
 ];
 
 // Imagem padrão para brigadeiros sem foto
-const IMAGEM_PADRAO = "../LojaAtulizado/Bolos/Caixa-brigadeiro.jpeg";
+const IMAGEM_PADRAO = "LojaAtulizado/Foto Brigadeiro/Caixa-brigadeiro.jpeg";
 
 // Função para renderizar produtos filtrados
 function renderizarProdutos(filtro = "Todos", busca = "") {
