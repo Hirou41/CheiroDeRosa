@@ -12,29 +12,29 @@ const produtos = [
     id: 2,
     nome: "Bolo de Chocolate Decorado",
     descricao: "recheio de brigadeiro ",
-    imagem: "./CheiroDeRosa/Bolos/Bolo-chocolate-lado.jpeg",
-    imagemExtra: "/CheiroDeRosa/Bolos/Boloco-chocolate-vertical.jpeg",
+    imagem: "../CheiroDeRosa/Bolos/Bolo-chocolate-lado.jpeg",
+    imagemExtra: "../CheiroDeRosa/Bolos/Boloco-chocolate-vertical.jpeg",
     categoria: "Bolos"
   },
   {
     id: 3,
     nome: "Bolo no Pote",
     descricao: "porção individual para aniversário e lembrancinha, recheios de brigadeiro branco ",
-    imagem: "LojaAtulizado/Bolos/Bolo-pote-quadrado.jpeg",
+    imagem: "../CheiroDeRosa/Bolos/Bolo-pote-quadrado.jpeg",
     categoria: "Bolos"
   },
   {
     id: 4,
     nome: "Bolo Rústico com Flores",
     descricao: "rústico com flores recheio de brigadeiro de maracujá ",
-    imagem: "LojaAtulizado/Bolos/Bolo-pote-redondo.jpeg",
+    imagem: "../CheiroDeRosa/Bolos/Bolo-pote-redondo.jpeg",
     categoria: "Bolos"
   },
   {
     id: 5,
     nome: "Bolo de Aniversário",
     descricao: "Personalizado com tema infantil, massa de chocolate recheio de brigadeiro de maracujá ",
-    imagem: "LojaAtulizado/Bolos/Bolo-Aniversario.jpeg",
+    imagem: "../CheiroDeRosa/Bolos/Bolo-Aniversario.jpeg",
     categoria: "Bolos"
   },
 
@@ -44,7 +44,7 @@ const produtos = [
     nome: "Brigadeiro",
     preco: "R$140",
     categoria: "Brigadeiros Tradicionais",
-    imagem: "LojaAtulizado/Foto Brigadeiro/Caixa-brigadeiro-redondo.jpeg"
+    imagem: "../CheiroDeRosa/Foto Brigadeiro/Caixa-brigadeiro-redondo.jpeg"
   },
   { id: 7, nome: "Coco", preco: "R$130", categoria: "Brigadeiros Tradicionais", imagem: "" },
   { id: 8, nome: "Ninho", preco: "R$135", categoria: "Brigadeiros Tradicionais", imagem: "" },
